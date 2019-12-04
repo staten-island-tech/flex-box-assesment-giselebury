@@ -10,14 +10,15 @@ html {
 body{
     background-color: rgba(color(primary), 0.4);
     .flex-parent{
-        background-color: red;
+        background-color: rgba(color(primary-variant), 0.4);
         height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        font-size: large;
     }
     .flex-child{
-        background-color: blue;
+        
         margin: 10px;
         height: 20vh;
         color: white;
