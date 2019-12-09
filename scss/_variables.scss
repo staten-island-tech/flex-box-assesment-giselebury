@@ -1,6 +1,10 @@
 $colors:(
-    primary: #03DAC6
+    primary: #0280EE,
+    primary-variant: #5AB0FE,
+    on-primary: #FFFFFF,
+    text:#000000,
 );
 
 @function color($color-name){
-    @return map-get($colors, $color-name)
+    @return map-get($colors, $color-name);
+}

@@ -10,26 +10,25 @@ html {
 body{
     background-color: rgba(color(primary), 0.4);
     .flex-parent{
-        background-color: red;
+        background-color: rgba(color(primary-variant), 0.4);
         height: 60vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
     }
     .flex-child{
         background-color: blue;
         margin: 10px;
         height: 20vh;
+        width: 50vw;
         color: white;
+        display: flex;
+        justify-content: space-evenly;
     }
     #flex-grow-1{
         display:flex;
         justify-content: space-evenly;
+        flex-wrap: nowrap;
     }
-    #flex-grow-2{
-        flex-grow: 2;
-    }
-    .flex-sm{
-        background-color: purple;
-    }
+
 }
