@@ -1,11 +1,13 @@
 @import"./_variables.scss";
 @import "./_fonts.scss";
-@import "./header";
+@import"./_header.scss";
 
 
-$padding: 1.3rem;
 html {
     font-size: 62.5%;
+    padding: 1.3rem;
+    margin: 0;
+    box-sizing: border-box;
   }
 body{
     background-color: rgba(color(primary), 0.4);
@@ -13,12 +15,8 @@ body{
         background-color: rgba(color(primary-variant), 0.4);
         height: 60vh;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        font-size: large;
     }
     .flex-child{
-        
         margin: 10px;
         height: 20vh;
         width: 50vw;
@@ -31,5 +29,9 @@ body{
         justify-content: space-evenly;
         flex-wrap: nowrap;
     }
+    #image-1{
+        height: 30rem;
+    }
+
 
 }
