@@ -1,5 +1,5 @@
 html {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Alatsi', sans-serif;
 }
 
 .header {
@@ -28,10 +28,10 @@ body .flex-parent {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  font-size: large;
 }
 
 body .flex-child {
-  background-color: blue;
   margin: 10px;
   height: 20vh;
   width: 50vw;

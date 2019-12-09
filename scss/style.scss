@@ -15,9 +15,10 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        font-size: large;
     }
     .flex-child{
-        background-color: blue;
+        
         margin: 10px;
         height: 20vh;
         width: 50vw;

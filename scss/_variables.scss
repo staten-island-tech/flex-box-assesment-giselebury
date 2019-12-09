@@ -5,6 +5,7 @@ $colors:(
     text:#000000,
 );
 
+
 @function color($color-name){
     @return map-get($colors, $color-name);
 }
