@@ -6,14 +6,23 @@ h1 {
   background-color: rgba(0, 67, 157, 0.4);
   font-size: 10rem;
   text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+  width: 75rem;
+}
+
+h2 {
+  position: absolute;
+  top: 8%;
+  left: 44%;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 html {
   font-size: 62.5%;
-  padding: 1.3rem;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  padding: 0;
 }
 
 body {
@@ -21,38 +30,55 @@ body {
 }
 
 body .flex-parent {
-  background-color: rgba(90, 176, 254, 0.4);
-  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 80vh;
+  background-color: rgba(90, 176, 254, 0.4);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 
 body .flex-child {
-  margin: 10px;
-  height: 20vh;
-  width: 50vw;
-  color: white;
+  height: 50vh;
+  background-color: rgba(0, 67, 157, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 25%;
 }
 
-body #flex-grow-1 {
+body #img {
+  height: 20rem;
+}
+
+body .flex-parent2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
-body #image-1 {
-  height: 30rem;
+  background-color: rgba(90, 176, 254, 0.4);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 80vh;
 }
 /*# sourceMappingURL=style.css.map */
