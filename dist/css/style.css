@@ -87,20 +87,23 @@ body .flex-parent2 {
           align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  position: relative;
-  height: 80vh;
+  height: 80rem;
 }
 
-body .flex-child2 {
-  position: absolute;
+body #flex-child2 {
   background-color: rgba(0, 67, 157, 0.4);
-  top: 40%;
-  width: 75rem;
-  height: 45vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
+  width: 50rem;
+  height: 20vh;
+  /*      display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around; */
+  font-size: 2rem;
+}
+
+body .flex-child3 {
+  background-color: rgba(185, 246, 202, 0.4);
+  width: 50rem;
+  height: 20vh;
 }
 /*# sourceMappingURL=style.css.map */

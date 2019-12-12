@@ -42,20 +42,27 @@ body{
         background-color: rgba(color(primary-variant), 0.4);
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        height: 80vh;
+        justify-content: space-around; 
+    
+        height: 80rem;
     }
 
-    .flex-child2{
-        position: absolute;
+    #flex-child2{
         background-color: rgba(color(complementary), 0.4);
-        top: 40%;
-        width: 75rem;
-        height: 45vh;
-        display: flex;
-        align-content: flex-start;
-        
 
+        width: 50rem;
+        height: 20vh;
+/*      display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around; */
+        font-size: 2rem;
+    }
+
+    .flex-child3{
+        background-color: rgba(color(on-primary), 0.4);
+
+        width: 50rem;
+        height: 20vh;
     }
 }
