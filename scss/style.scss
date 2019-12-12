@@ -15,13 +15,14 @@ body{
 
     .flex-parent{
         display: flex;
-        height: 80vh;
+        height: 70vh;
         background-color: rgba(color(primary-variant), 0.4);
         justify-content: center;
         position: relative;
     }
 
     .flex-child{
+        margin: 3rem;
         height: 50vh;
         background-color: rgba(color(complementary), 0.4);
         display: flex;
@@ -41,28 +42,37 @@ body{
         display: flex;
         background-color: rgba(color(primary-variant), 0.4);
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-around; 
-    
-        height: 80rem;
+        height: 60rem;
     }
 
-    #flex-child2{
+    .flex-child2{
         background-color: rgba(color(complementary), 0.4);
-
-        width: 50rem;
-        height: 20vh;
-/*      display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-around; */
+        width: 60rem;
+        height: 30vh;
         font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .flex-child3{
         background-color: rgba(color(on-primary), 0.4);
-
+        background-position: center;
         width: 50rem;
-        height: 20vh;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #parent{
+        height: 50vh;
+    }
+
+    #img2{
+        height: 15rem;
+
     }
 }

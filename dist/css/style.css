@@ -26,6 +26,10 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  text-align: center;
+}
+
 html {
   font-size: 62.5%;
   margin: 0;
@@ -40,7 +44,7 @@ body .flex-parent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80vh;
+  height: 70vh;
   background-color: rgba(90, 176, 254, 0.4);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -49,6 +53,7 @@ body .flex-parent {
 }
 
 body .flex-child {
+  margin: 3rem;
   height: 50vh;
   background-color: rgba(0, 67, 157, 0.4);
   display: -webkit-box;
@@ -82,28 +87,49 @@ body .flex-parent2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 80rem;
+  height: 60rem;
 }
 
-body #flex-child2 {
+body .flex-child2 {
   background-color: rgba(0, 67, 157, 0.4);
-  width: 50rem;
-  height: 20vh;
-  /*      display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-around; */
+  width: 60rem;
+  height: 30vh;
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body .flex-child3 {
   background-color: rgba(185, 246, 202, 0.4);
+  background-position: center;
   width: 50rem;
-  height: 20vh;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body #parent {
+  height: 50vh;
+}
+
+body #img2 {
+  height: 15rem;
 }
 /*# sourceMappingURL=style.css.map */
