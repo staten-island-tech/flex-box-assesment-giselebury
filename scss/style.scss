@@ -16,9 +16,10 @@ body{
     .flex-parent{
         display: flex;
         height: 70vh;
-        background-color: rgba(color(primary-variant), 0.4);
+        // background-color: rgba(color(primary-variant), 0.4);
         justify-content: center;
         position: relative;
+        
     }
 
     .flex-child{
@@ -40,7 +41,7 @@ body{
 
     .flex-parent2{
         display: flex;
-        background-color: rgba(color(primary-variant), 0.4);
+        // background-color: rgba(color(primary-variant), 0.4);
         flex-direction: row;
         align-items: center;
         justify-content: space-around; 
